@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #c3d8e9;
+}
+body .header {
+  height: 90px;
+  background-color: #fff;
+}
+body .header .logo {
+  float: left;
+  width: 50%;
+}
+body .header .search {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+body .nav {
+  background-color: #005bac;
+  height: 50px;
+  color: #fff;
+}
+body .nav .liStyle, body .nav .liItem, body .nav .liItem li {
+  list-style: none;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #005bac;
+}
+body .nav .liStyle:hover, body .nav .liItem:hover, body .nav .liItem li:hover {
+  background-color: #0d50a9;
+}
+body .nav .liStyle:hover ul, body .nav .liItem:hover ul, body .nav .liItem li:hover ul {
+  display: block;
+}
+body .nav .liItem {
+  float: left;
+  width: 14%;
+}
+body .nav .liItem ul {
+  display: none;
+  position: absolute;
+  width: 163px;
+}
+body .nav .liItem li {
+  border-top: 1px solid #fff;
+}
+body .main {
+  height: 800px;
+}
+body .main .divStyle, body .main .carousel, body .main .notice {
+  height: 400px;
+  float: left;
+  width: 50%;
+}
+body .main .carousel {
+  background-color: orange;
+}
+body .main .notice {
+  background-color: pink;
+}
+body .main .left {
+  width: 70%;
+  float: left;
+  background-color: gray;
+  height: 400px;
+}
+body .main .right {
+  width: 30%;
+  float: left;
+  background-color: skyblue;
+  height: 400px;
+}
+body .photos {
+  height: 220px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+body .footer {
+  background-color: #005bac;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+body .footer p {
+  margin-bottom: 14px;
+}
+
+/*# sourceMappingURL=index.css.map */
